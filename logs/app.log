@@ -6,3 +6,88 @@
 2026-05-04 15:33:36,367 | INFO | App name: local-invest-agent-system
 2026-05-04 15:33:36,367 | INFO | LLM provider: lmstudio
 2026-05-04 15:33:36,368 | INFO | Brain repo path: ../local-invest-agent-brain
+2026-05-04 15:57:14,030 | INFO | Local Invest Agent System started.
+2026-05-04 15:57:14,031 | INFO | Selected agent: research_agent
+2026-05-04 15:57:14,031 | INFO | Task: 오늘의 입력 데이터를 바탕으로 투자 후보 종목을 발굴하고, 후보 선정 이유와 근거 수준을 표로 정리하십시오.
+2026-05-04 15:58:06,104 | INFO | Agent result saved: output/2026-05-04/research_agent_result.md
+2026-05-04 16:02:48,750 | INFO | Local Invest Agent System started.
+2026-05-04 16:02:48,750 | INFO | Selected agent: research_agent
+2026-05-04 16:02:48,750 | INFO | Task: 오늘의 후보 종목 중에서 근거 수준이 가장 높은 종목부터 우선순위를 정리하십시오. 단, 매수 추천은 하지 말고 후속 분석 필요성만 작성하십시오.
+2026-05-04 16:03:43,360 | INFO | Agent result saved: output/2026-05-04/research_agent_result.md
+2026-05-04 16:25:25,629 | INFO | Local Invest Agent System started.
+2026-05-04 16:25:25,630 | INFO | Selected workflow: debate
+2026-05-04 16:29:38,384 | INFO | Debate workflow final result saved: output\2026-05-04\04_debate_moderator_agent_result.md
+2026-05-04 16:43:53,605 | INFO | Local Invest Agent System started.
+2026-05-04 16:43:53,605 | INFO | Selected workflow: debate
+2026-05-04 16:47:53,195 | INFO | Debate workflow final result saved: output\2026-05-04\04_debate_moderator_agent_result.md
+2026-05-04 16:49:31,863 | INFO | Local Invest Agent System started.
+2026-05-04 16:49:31,863 | INFO | Selected workflow: debate
+2026-05-04 16:53:47,896 | INFO | Debate workflow final result saved: output\2026-05-04\04_debate_moderator_agent_result.md
+2026-05-04 16:59:51,944 | INFO | Local Invest Agent System started.
+2026-05-04 16:59:51,945 | INFO | Selected workflow: debate
+2026-05-04 16:59:51,945 | INFO | [debate_workflow] Debate workflow started.
+2026-05-04 16:59:51,945 | INFO | [debate_workflow] Today input length: 382 characters
+2026-05-04 16:59:51,946 | INFO | [research_agent] Agent execution started.
+2026-05-04 16:59:51,946 | INFO | [research_agent] Context length: 382 characters
+2026-05-04 16:59:51,946 | INFO | [research_agent] Task length: 439 characters
+2026-05-04 16:59:51,946 | INFO | [research_agent] System prompt length: 985 characters
+2026-05-04 16:59:51,946 | INFO | [research_agent] User prompt length: 847 characters
+2026-05-04 17:01:02,028 | INFO | [research_agent] Full result length: 1700 characters
+2026-05-04 17:01:02,028 | INFO | [research_agent] Handoff packet length: 325 characters
+2026-05-04 17:01:02,029 | INFO | [research_agent] Result preview: # Full Report  ## 1. 시장 요약 오늘의 데이터는 AI 반도체, 로봇, 바이오 등 미래 성장 테마 섹터에서 투자 관심이 집중되고 있음을 시사합니다. 특히, 일부 후보 종목들은 정책 기대감이나 대기업 투자 뉴스, 임상 이슈와 같은 명확한 이벤트에 의해 주도적인 움직임을 보이고 있습니다. 전반적으로 시장은 특정 산업의 모멘텀에 따라 변동성이 확대
+2026-05-04 17:01:02,030 | INFO | [research_agent] Full result saved: output\2026-05-04\01_research_agent_full.md
+2026-05-04 17:01:02,032 | INFO | [research_agent] Handoff saved: output\2026-05-04\01_research_agent_handoff.md
+2026-05-04 17:01:02,032 | INFO | [analyst_agent] Agent execution started.
+2026-05-04 17:01:02,032 | INFO | [analyst_agent] Context length: 759 characters
+2026-05-04 17:01:02,032 | INFO | [analyst_agent] Task length: 531 characters
+2026-05-04 17:01:02,033 | INFO | [analyst_agent] System prompt length: 963 characters
+2026-05-04 17:01:02,033 | INFO | [analyst_agent] User prompt length: 1316 characters
+2026-05-04 17:02:21,377 | WARNING | [analyst_agent] Handoff marker not found. Full result will be used as handoff packet.
+2026-05-04 17:02:21,377 | INFO | [analyst_agent] Full result length: 2431 characters
+2026-05-04 17:02:21,378 | INFO | [analyst_agent] Handoff packet length: 2431 characters
+2026-05-04 17:02:21,378 | INFO | [analyst_agent] Result preview: # Full Report  ## 1. 종목별 투자 검토 가능성 및 상세 분석  ### 샘플종목A (AI 반도체) *   **투자 검토 가능성:** 조건부 관심 *   **차트 위치 해석:** 정책 기대감으로 인한 거래대금 증가는 단기적인 모멘텀을 시사하지만, 실제 주가 움직임이 이러한 기대감을 선반영했는지 확인해야 합니다. 눌림목 위치에 있다면 매수 기회가
+2026-05-04 17:02:21,380 | INFO | [analyst_agent] Full result saved: output\2026-05-04\02_analyst_agent_full.md
+2026-05-04 17:02:21,383 | INFO | [analyst_agent] Handoff saved: output\2026-05-04\02_analyst_agent_handoff.md
+2026-05-04 17:02:21,384 | INFO | [risk_manager_agent] Agent execution started.
+2026-05-04 17:02:21,384 | INFO | [risk_manager_agent] Context length: 3223 characters
+2026-05-04 17:02:21,384 | INFO | [risk_manager_agent] Task length: 621 characters
+2026-05-04 17:02:21,386 | INFO | [risk_manager_agent] System prompt length: 1056 characters
+2026-05-04 17:02:21,386 | INFO | [risk_manager_agent] User prompt length: 3870 characters
+2026-05-04 17:03:41,689 | WARNING | [risk_manager_agent] Handoff marker not found. Full result will be used as handoff packet.
+2026-05-04 17:03:41,689 | INFO | [risk_manager_agent] Full result length: 1815 characters
+2026-05-04 17:03:41,689 | INFO | [risk_manager_agent] Handoff packet length: 1815 characters
+2026-05-04 17:03:41,689 | INFO | [risk_manager_agent] Result preview: # Full Report  ## 1. 종목별 손실 가능성 및 반대 논리  ### 샘플종목A (AI 반도체) *   **손실 가능성:** Medium-High *   **반대 논리:** 정책 기대감에 따른 거래대금 증가는 단기적인 모멘텀일 뿐, 실제 실적 개선이나 시장의 장기적인 기술적 흐름을 담보하지 않습니다. 정책이 구체화되지 않거나 반도체 섹터 전반의 
+2026-05-04 17:03:41,691 | INFO | [risk_manager_agent] Full result saved: output\2026-05-04\03_risk_manager_agent_full.md
+2026-05-04 17:03:41,693 | INFO | [risk_manager_agent] Handoff saved: output\2026-05-04\03_risk_manager_agent_handoff.md
+2026-05-04 17:03:41,693 | INFO | [debate_moderator_agent] Agent execution started.
+2026-05-04 17:03:41,693 | INFO | [debate_moderator_agent] Context length: 4894 characters
+2026-05-04 17:03:41,694 | INFO | [debate_moderator_agent] Task length: 603 characters
+2026-05-04 17:03:41,695 | INFO | [debate_moderator_agent] System prompt length: 985 characters
+2026-05-04 17:03:41,695 | INFO | [debate_moderator_agent] User prompt length: 5523 characters
+2026-05-04 17:04:37,543 | WARNING | [debate_moderator_agent] Handoff marker not found. Full result will be used as handoff packet.
+2026-05-04 17:04:37,543 | INFO | [debate_moderator_agent] Full result length: 472 characters
+2026-05-04 17:04:37,543 | INFO | [debate_moderator_agent] Handoff packet length: 472 characters
+2026-05-04 17:04:37,543 | INFO | [debate_moderator_agent] Result preview: # Debate Result  ## 1. 최종 분류  | 종목 | Research 핵심 | Analyst 핵심 | Risk 핵심 | 최종 분류 | 이유 | |---|---|---|---|---|---| | 샘플종목A | 정책 기대감에 따른 거래대금 증가 (모멘텀) | 조건부 관심 (눌림목 진입 고려) | Medium-High (과열 및 모멘텀 소멸 위험) 
+2026-05-04 17:04:37,545 | INFO | [debate_moderator_agent] Full result saved: output\2026-05-04\04_debate_moderator_agent_result.md
+2026-05-04 17:04:37,546 | INFO | [debate_moderator_agent] Final debate result saved: output\2026-05-04\04_debate_moderator_agent_result.md
+2026-05-04 17:04:37,546 | INFO | [debate_workflow] Debate workflow completed.
+2026-05-04 17:04:37,546 | INFO | Debate workflow final result saved: output\2026-05-04\04_debate_moderator_agent_result.md
+2026-05-04 17:06:57,300 | INFO | Local Invest Agent System started.
+2026-05-04 17:06:57,301 | INFO | Selected workflow: debate
+2026-05-04 17:06:57,302 | INFO | [debate_workflow] Debate workflow started.
+2026-05-04 17:06:57,302 | INFO | [debate_workflow] Today input length: 382 characters
+2026-05-04 17:06:57,302 | INFO | [research_agent] Agent execution started.
+2026-05-04 17:06:57,302 | INFO | [research_agent] Context length: 382 characters
+2026-05-04 17:06:57,302 | INFO | [research_agent] Task length: 424 characters
+2026-05-04 17:06:57,303 | INFO | [research_agent] System prompt length: 985 characters
+2026-05-04 17:06:57,303 | INFO | [research_agent] User prompt length: 832 characters
+2026-05-04 17:08:14,385 | INFO | [research_agent] Full result saved: output\2026-05-04\01_research_agent_full.md
+2026-05-04 17:08:14,385 | INFO | [research_agent] Handoff packet saved: output\2026-05-04\01_research_agent_handoff.md
+2026-05-04 17:08:14,385 | INFO | [research_agent] Full result length: 1809 characters
+2026-05-04 17:08:14,385 | INFO | [research_agent] Handoff packet length: 292 characters
+2026-05-04 17:08:14,385 | INFO | [research_agent] Handoff preview: | 종목 | 섹터 | 후보 선정 이유 | 근거 수준 | Analyst 확인 항목 | |---|---|---|---|---| | 샘플종목A | AI 반도체 | 정책 기대감에 따른 거래대금 증가 | B | 정책 관련 구체적 내용 및 시장 반응의 수치 확인 | | 샘플종목B | 로봇 | 대기업 투자 뉴스에 따른 장중 거래량 증가 | B | 대기업 뉴스의 구체적인
+2026-05-04 17:08:14,386 | INFO | [analyst_agent] Agent execution started.
+2026-05-04 17:08:14,386 | INFO | [analyst_agent] Context length: 726 characters
+2026-05-04 17:08:14,386 | INFO | [analyst_agent] Task length: 511 characters
+2026-05-04 17:08:14,386 | INFO | [analyst_agent] System prompt length: 963 characters
+2026-05-04 17:08:14,387 | INFO | [analyst_agent] User prompt length: 1263 characters

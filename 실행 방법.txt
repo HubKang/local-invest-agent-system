@@ -9,6 +9,8 @@ PS D:\21. Codex\03.local-invest-agent\local-invest-agent-system> .\.venv\Scripts
 
 
 
+# Research Agent를 실행합니다.
 
+python main.py --agent research_agent
 
 
