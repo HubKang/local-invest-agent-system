@@ -1,0 +1,4 @@
+2026-05-04 15:19:59,559 | INFO | Local Invest Agent System started.
+2026-05-04 15:19:59,559 | INFO | App name: local-invest-agent-system
+2026-05-04 15:19:59,559 | INFO | LLM provider: lmstudio
+2026-05-04 15:19:59,560 | INFO | Brain repo path: ../local-invest-agent-brain

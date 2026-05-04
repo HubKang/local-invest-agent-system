@@ -1,0 +1,35 @@
+# config.yaml은 프로그램의 환경설정 파일입니다.
+# LM Studio 주소
+# 사용할 모델명
+# Second Brain 저장소 위치
+# 결과 저장 위치
+# 온도값
+# 최대 토큰 수
+
+app:
+  name: local-invest-agent-system
+  version: 0.1.0
+
+llm:
+  provider: lmstudio
+  base_url: "http://localhost:1234/v1"
+  model: "gemma"
+  temperature: 0.3
+  max_tokens: 3000
+  timeout_seconds: 120
+
+paths:
+  brain_repo_path: "../local-invest-agent-brain"
+  output_dir: "output"
+  log_dir: "logs"
+  today_input_file: "data/today_input.md"
+
+workflow:
+  default_agent: "research_agent"
+  save_markdown: true
+  use_git_push: false
+
+safety:
+  allow_auto_trading: false
+  require_risk_review: true
+  final_decision_by_user: true
