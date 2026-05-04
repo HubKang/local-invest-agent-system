@@ -1,0 +1,14 @@
+# 가상환경 구성
+
+PS D:\21. Codex\03.local-invest-agent\local-invest-agent-system> python -m venv .venv
+
+
+# 가상환경 실행
+
+PS D:\21. Codex\03.local-invest-agent\local-invest-agent-system> .\.venv\Scripts\Activate.ps1
+
+
+
+
+
+

@@ -13,7 +13,7 @@ app:
 llm:
   provider: lmstudio
   base_url: "http://localhost:1234/v1"
-  model: "gemma"
+  model: "gemma-4-e2b"
   temperature: 0.3
   max_tokens: 3000
   timeout_seconds: 120
